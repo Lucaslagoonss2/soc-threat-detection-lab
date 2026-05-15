@@ -18,10 +18,7 @@ A hands-on Blue Team project focused on malware traffic analysis, IOC investigat
 
 - Wireshark
 - Python
-- Linux
-- tcpdump
-- VirusTotal
-- Suricata (future implementation)
+- Kali Linux
 
 ---
 
@@ -46,7 +43,6 @@ soc-threat-detection-lab/
 - DNS and HTTP traffic analysis
 - Malware communication analysis
 - SOC-style incident reporting
-- Basic Python automation
 
 ---
 
@@ -63,6 +59,26 @@ This investigation focused on analyzing suspicious network traffic associated wi
 - HTTP callback traffic detected
 - Encoded GET requests observed
 - Suspicious redirect behavior
+
+---
+
+# Screenshots
+
+## Suspicious DNS Resolution
+
+![DNS Investigation](screenshots/suspicious_dns.png)
+
+---
+
+## External TCP Communication
+
+![TCP Communication](screenshots/tcp_communication_with_suspicious_ip.png)
+
+---
+
+## HTTP Stream Analysis
+
+![HTTP Stream](screenshots/follow_http_stream_analysis.png)
 
 ---
 
